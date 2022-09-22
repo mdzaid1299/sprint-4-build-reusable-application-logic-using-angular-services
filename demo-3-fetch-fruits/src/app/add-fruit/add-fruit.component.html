@@ -1,0 +1,16 @@
+<div id="fruit-form">
+    <h3>Enter Fruit Details</h3>
+    <div>
+        <input [(ngModel)]="fruit.name" type="text" placeholder="Name">
+    </div>
+    <div>
+        <input [(ngModel)]="fruit.price" type="email" placeholder="Price ($)">
+    </div>
+    <div>
+        <input [(ngModel)]="fruit.unit" type="text" placeholder="Unit (pound / piece)">
+    </div>
+    <div>
+        <input type="button" (click)="add()" value="Add">
+    </div>
+</div>
+

@@ -1,0 +1,15 @@
+<div id="registration">
+    <h3>Registration Form</h3>
+    <div>
+        <input [(ngModel)]="name" type="text" placeholder="Name">
+    </div>
+    <div>
+        <input [(ngModel)]="email" type="email" placeholder="Email">
+    </div>
+    <div>
+        <input [(ngModel)]="contactNo" type="text" placeholder="Contact No">
+    </div>
+    <div>
+        <input type="button" (click)="register()" value="Register">
+    </div>
+</div>

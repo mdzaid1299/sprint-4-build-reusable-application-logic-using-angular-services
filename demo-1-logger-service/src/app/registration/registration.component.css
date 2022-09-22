@@ -1,0 +1,33 @@
+#registration {
+    display: flex;
+    width: 35%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid saddlebrown;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+#registration>div {
+    margin: 10px;
+}
+
+#registration > div > input {
+    width: 90%;
+    border:none;    
+    border-bottom: 1px solid salmon;
+}
+
+#registration > div > input[type="button"] {
+    width: 70px;
+    padding: 6px 5px;
+    border-radius: 10px;
+    background-color: salmon;
+    color: navy;
+}
+
+@media (min-width: 768px) {
+    #registration {
+        width: 15%;
+    }
+}

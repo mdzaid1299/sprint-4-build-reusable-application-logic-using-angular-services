@@ -1,0 +1,31 @@
+#fruit-form {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+
+#fruit-form>div {
+    margin: 10px;
+}
+
+#fruit-form > div > input {
+    width: 90%;
+    border:none;    
+    border-bottom: 1px solid salmon;
+    background-color: powderblue;
+
+}
+
+#fruit-form > div > input[type="button"] {
+    width: 70px;
+    padding: 6px 5px;
+    border-radius: 10px;
+    background-color: salmon;
+    color: navy;
+}
+
+@media (min-width: 768px) {
+    #fruit-form {
+        width: 75%;
+    }
+}

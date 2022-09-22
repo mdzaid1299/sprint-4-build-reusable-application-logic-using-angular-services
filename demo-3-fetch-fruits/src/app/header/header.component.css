@@ -1,0 +1,14 @@
+div{
+    background-color: cadetblue;
+    border-bottom: 4px solid orangered;
+    padding: 5px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+h2 {
+    /* margin: 0px; */
+    font-family: 'Pacifico', cursive;
+    font-weight: 60;
+    color: yellow;
+}

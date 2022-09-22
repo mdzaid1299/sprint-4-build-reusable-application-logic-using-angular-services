@@ -1,0 +1,9 @@
+<div class="container">
+    <div class="fruit-list">
+        <app-search (searchTextChanged)="onSearchTextChanged($event)"></app-search>
+        <app-fruit-list [fruits] = "fruits"></app-fruit-list>
+    </div>
+    <div class="add-fruit">
+        <app-add-fruit></app-add-fruit>
+    </div>
+</div>
